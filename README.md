@@ -15,12 +15,24 @@ The first aspect is telling an interesting story from the data. The dataset cont
 I thought showing variation by year and month presents lot of details but the mayor won't be able to make out anything from this. I wanted to try with year and quarter (which best represents seasons). Pie charts are great in representing quadrants. I tried with Pie charts. 
 Picture-2 below shows the graph. ![alt text](images/Overview-3.png)
 
-This pie chart is not able to reflect the seasonal difference, any improvement over years and future forecast accurately. The mayor needs to review this pie chart very closely to understand the details. In a nutshell, this pie chart is not engaging and not able to draw attention. I think using a bar graph and correctly arranging the columns season first and then year will portray the story well. Picture-3 below shows the Overview in an interesting way.![alt text](images/Overview-final.png).
+This pie chart is not able to reflect the seasonal difference, any improvement over years and future forecast accurately. The mayor needs to review this pie chart very closely to understand the details. In a nutshell, this pie chart is not engaging and not able to draw attention. A line graph might not be a good choice because it will not be able to tell the magnitude of change for all the years from base 0. 
 
-This bar graph shows the decreasing trend of total violations for every quarter across years. This graph also clearly show that, Q1 quarter which is the winter season incurred least violations for all the years. The forecast is also clearly shown with the forecasted number of violations in each years (2019 and 2020).
-A line graph might not be a good choice because it will not be able to tell the magnitude of change for all the years from base 0. I like the way this graph portrays an interesting story of how the program has been working since the start of the program across various seasons and how it will work in the near future as well.
+I think using a bar graph and correctly arranging the columns season first and then year will portray the story well. Picture-3 below shows the Overview in an interesting way.![alt text](images/Overview-final.png).I like the way this graph portrays an interesting story of how the program has been working since the start of the program across various seasons and how it will work in the near future as well. This graph also captures the fact that, in Q3 the forecast for year 2019 is slightly more than Q3 of year 2018.This bar graph shows the decreasing trend of total violations for every quarter across years. This graph also clearly show that, Q1 quarter which is the winter season incurred least violations for all the years. The forecast is also clearly shown with the forecasted number of violations in each years (2019 and 2020).
+
+I ended up using this graph in my presentation.
 
 ## Non-trivial Story
+
+The Mayor might be interested in knowing the trend of violations at each zip code level.
+I initially came up with horizontal bars, sorted by zip codes with total violations sorted descending. ![alt text](images/nontrivial-1.png)
+
+This horizontal graph does not represent trend of violations. I created another bar graph. ![alt text](images/nontrivial-2.png)
+Well the above graph is pretty good in capturing the trend in the last three years, the mayor needs to look very closely to see which zip codes have interesting trends.
+
+I came up with a line graph ![alt text](images/nontrivial-1.png) to describe this non-trivial story. I created a new parameter called it "color-line". If the total violations in year 2017 is lesser than year 2018, then return 2 otherwise return 1. I also created another parameter called it "Trend" which returned "Red" if its 2 otherwise "Green". Then I used this new attribute "Trend" in the color of the graph.
+
+
+
 
 ## Unexpected Story
 
