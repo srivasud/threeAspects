@@ -12,7 +12,9 @@ I will dive in to the "making of" this visualization.
 
 The first aspect is telling an interesting story from the data. The dataset contains information such as Address of the speed light camera, X and Y co-ordinates of location the camera, Date of Violation, Camera ID, latitude and longitude of camera location. I wanted to give an overview of the data in terms of total violations by "time" to review, how the city has performed over the years since the start of the program. I initially chose the columns as month, year and bar graph which provided a great detail of the data but it was lot of information to digest. Picture-1 below shows the graph. ![alt text](images/Overview-1.png)
 
-I thought variation by year and month presents lot of details but the mayor won't be able to make out anything from this. I wanted to try with year and quarter (which best represents seasons). Pie charts are great in representing quadrants. I tried with Pie charts. 
+I thought showing variation by year and month presents lot of details but the mayor won't be able to make out anything from this. I wanted to try with year and quarter (which best represents seasons). Pie charts are great in representing quadrants. I tried with Pie charts. 
 Picture-2 below shows the graph. ![alt text](images/Overview-3.png)
+
+This pie chart is not able to reflect the seasonal difference, any improvement over years and future forecast accurately. The mayor needs to review this pie chart very closely to understand the details. In a nutshell, this pie chart is not engaging and not able to draw attention. I think using a bar graph and correctly arranging the columns season first and then year will portray the story well. Picture-3 below shows the Overview in an interesting way.![alt text](images/Overview-final.png)
 
 
