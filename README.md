@@ -39,11 +39,11 @@ Since the speed cameras are speed traps around children safety zones to catch lo
 
 Hence I decided to calculate the average median age of residents in all the zip codes present in this speed violations dataset. I web scraped the [url](http://www.city-data.com/zips/60626.html) 
 and got the "Resident Median Age" for each zip code. This website provides resident average median age for the year 2016. Since the year 2016 is in the middle , i consider it as the average median age of each zip code. I collected the information for each zip code in the City of Chicago and merged that information with the Speed violations data set.
-I came up with initial graph (given below). ![alt text](images/final-1.png). This does not portray or convey my concern. 
+I also web scraped average age of all zip codes from the [url](http://zipatlas.com/us/il/chicago/zip-code-comparison/median-age.htm). I found that the average age is slightly less than median age which confirms that there may be more younger population compared to median age and I safely assumed that if I target a broad range of population around the median age, we can find and explain any unexpected story from the data. I came up with initial graph (given below). ![alt text](images/final-1.png). This does not portray or convey my concern. 
 
 I came up with another line graph (given below). ![alt text](images/final-3.png) This graph is good, but the problem is it's not based from 0. So the magnitude of change or comparison is not effective.
 
-I came up with another bar graph (given below). ![alt text](images/final-2.png) When i looked at this graph, I was shocked to see the average median age violators are maximum in the age group between 30 to 40. I was expecting young driver population in the age group 17 to 30 will be the maximum violators. This was in contrary to my belief. I think the mayor will be very much interested to see this graph as he will be willing to take further steps by airing ads and pep talks on road safety and Children safety zone awareness among citizens. I finally chose this bar graph for this unexpected story.
+I came up with another bar graph (given below). ![alt text](images/final-2.png) When i looked at this graph, the average median age violators are maximum in the age group between 35 to 40. I was expecting young driver population in the age group 30 to 35 will be the maximum violators. This was in contrary to my belief. I think the mayor will be very much interested to see this graph as he will be willing to take further steps by airing ads and pep talks on road safety and Children safety zone awareness among citizens. I finally chose this bar graph for this unexpected story.
 
 
 
