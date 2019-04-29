@@ -15,6 +15,15 @@ The first aspect is telling an interesting story from the data. The dataset cont
 I thought showing variation by year and month presents lot of details but the mayor won't be able to make out anything from this. I wanted to try with year and quarter (which best represents seasons). Pie charts are great in representing quadrants. I tried with Pie charts. 
 Picture-2 below shows the graph. ![alt text](images/Overview-3.png)
 
-This pie chart is not able to reflect the seasonal difference, any improvement over years and future forecast accurately. The mayor needs to review this pie chart very closely to understand the details. In a nutshell, this pie chart is not engaging and not able to draw attention. I think using a bar graph and correctly arranging the columns season first and then year will portray the story well. Picture-3 below shows the Overview in an interesting way.![alt text](images/Overview-final.png)
+This pie chart is not able to reflect the seasonal difference, any improvement over years and future forecast accurately. The mayor needs to review this pie chart very closely to understand the details. In a nutshell, this pie chart is not engaging and not able to draw attention. I think using a bar graph and correctly arranging the columns season first and then year will portray the story well. Picture-3 below shows the Overview in an interesting way.![alt text](images/Overview-final.png).
+
+This bar graph shows the decreasing trend of total violations for every quarter across years. This graph also clearly show that, Q1 quarter which is the winter season incurred least violations for all the years. The forecast is also clearly shown with the forecasted number of violations in each years (2019 and 2020).
+A line graph might not be a good choice because it will not be able to tell the magnitude of change for all the years from base 0. I like the way this graph portrays an interesting story of how the program has been working since the start of the program across various seasons and how it will work in the near future as well.
+
+## Non-trivial Story
+
+## Unexpected Story
+
+
 
 
