@@ -6,7 +6,7 @@ I have downloaded the speed violations data of the City of Chicago from the [cit
 
 I prepared a [visual presentation](https://public.tableau.com/profile/srinivasan.vasudevan#!/vizhome/InduvidualProject-ThreeAspects/ThreeAspects) for the Mayor of the City of Chicago. The visual presents the three important aspects namely interesting story from the data, non-trivial information and unexpected story from the data.
 
-I will dive in to the "making of" this visualization.
+I will dive in to the "making of" this visualization. Unfortunately the zip code information in this Speed violations dataset seems to be incorrect. I downloaded Wards data which contain WARD_ZIPCODE from this [source](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4). I merged the wards data set with speed violations dataset.
 
 ## Interesting Story
 
@@ -32,6 +32,20 @@ Well, the above graph is pretty good in capturing the trend (in the last three y
 I came up with a line graph ![alt text](images/nontrivial-3.png) to describe this non-trivial story. I created a new parameter called it "color-line". If the total violations in year 2017 is lesser than year 2018, then return 2 otherwise return 1. I also created another parameter called it "Trend" which returned "Red" if its 2 otherwise "Green". Then I used this new attribute "Trend" in the color of the graph. The mayor can also click on "Green" or "Red" in the legend to filter and see only "Red". Here "Red" shows increasing trend in violations in the last year 2018 compared to 2017. I can show the mayor all the increasing trend zip codes in one click. This graph is compelling and persuading the mayor to take further steps to reduce violations in these zip codes. I chose this line graph with trend line over the others to tell this non-trivial and compelling story to the Mayor of Chicago.
 
 ## Unexpected Story
+
+Since the speed cameras are speed traps around children safety zones to catch local residents and visitors when commuting in this area, I strongly believe that the local residents will be the major violators for the following reasons. 
+* Local residents use these roads on a day to day basis
+* Violations are maximum during Q2,Q3 and Q4 seasons which confirm that the local residents start using these parks, children recreation areas more frequently than others.
+* If the violations are caused by external visitors, then it will be random effect and no pattern will be observed.
+
+Hence I decided to calculate the average median age of residents in all zip codes present in this speed violations dataset. I web scraped the [url](http://www.city-data.com/zips/60626.html) 
+and got the "Resident Median Age" for each zip code by changing the url last part to the actual zip code. This website provides resident average median age for year 2016. Since year 2016 is in the middle , i consider it as the average median age of each zip code. I collected it for each zip code in the City of Chicago and merged that information with Speed violations data set.
+I came up with initial graph. ![alt text](images/final-1.png). This does not portray or convey my concern. 
+
+I came up with another line graph. ![alt text](images/final-3.png). This graph is good, but the problem with this line graph is not based at 0. So the magnitude of change or comparison is not effective.
+
+I came up with another bar graph. ![alt text](images/final-2.png). When i looked at this graph, I was shocked to see the average median age violators are maximum in the age group 30 to 40.
+I was expecting young driver population in the age group 17 to 30 will be the maximum violators. This was in contrary to my belief.
 
 
 
