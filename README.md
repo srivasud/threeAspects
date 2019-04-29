@@ -4,7 +4,7 @@ Chicago experiences roughly 3,000 crashes annually between motor vehicles and pe
 
 I have downloaded the speed violations data of the City of Chicago from the city's website [Source](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4) which contains speed violations from Q3-2014 to Q1-2019.
 
-I prepared a Visualization presentation for the Mayor of the City of Chicago. The visual presents the three important aspects namely interesting story from the data, non-trivial information and unexpected story from the data [Visual Presentation].(https://public.tableau.com/profile/srinivasan.vasudevan#!/vizhome/InduvidualProject-ThreeAspects/ThreeAspects)
+I prepared a Visualization presentation for the Mayor of the City of Chicago. The visual presents the three important aspects namely interesting story from the data, non-trivial information and unexpected story from the data [Visual Presentation](https://public.tableau.com/profile/srinivasan.vasudevan#!/vizhome/InduvidualProject-ThreeAspects/ThreeAspects)
 
 I will dive in to the "making of" this visualization.
 
