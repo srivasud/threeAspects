@@ -23,16 +23,13 @@ I ended up using this graph in my presentation.
 
 ## Non-trivial Story
 
-The Mayor might be interested in knowing the trend of violations at each zip code level.
-I initially came up with horizontal bars, sorted by zip codes with total violations sorted descending. ![alt text](images/nontrivial-1.png)
+The Mayor might be interested in knowing the trend of violations at each zip code.
+I initially came up with horizontal bars, zip code wise total violations sorted descending. ![alt text](images/nontrivial-1.png)
 
-This horizontal graph does not represent trend of violations. I created another bar graph. ![alt text](images/nontrivial-2.png)
-Well the above graph is pretty good in capturing the trend in the last three years, the mayor needs to look very closely to see which zip codes have interesting trends.
+This horizontal bar graph does not depict trend of violations but present details of violations by zip code over years. I created another bar graph. ![alt text](images/nontrend-2.png)
+Well, the above graph is pretty good in capturing the trend (in the last three years), the mayor needs to look very closely to see which zip codes have interesting trends.
 
-I came up with a line graph ![alt text](images/nontrivial-1.png) to describe this non-trivial story. I created a new parameter called it "color-line". If the total violations in year 2017 is lesser than year 2018, then return 2 otherwise return 1. I also created another parameter called it "Trend" which returned "Red" if its 2 otherwise "Green". Then I used this new attribute "Trend" in the color of the graph.
-
-
-
+I came up with a line graph ![alt text](images/nontrivial-3.png) to describe this non-trivial story. I created a new parameter called it "color-line". If the total violations in year 2017 is lesser than year 2018, then return 2 otherwise return 1. I also created another parameter called it "Trend" which returned "Red" if its 2 otherwise "Green". Then I used this new attribute "Trend" in the color of the graph. The mayor can also click on "Green" or "Red" in the legend to filter and see only "Red". Here "Red" shows increasing trend in violations in the last year 2018 compared to 2017. I can show the mayor all the increasing trend zip codes in one click. This graph is compelling and persuading the mayor to take further steps to reduce violations in these zip codes. I chose this line graph with trend line over the others to tell this non-trivial and compelling story to the Mayor of Chicago.
 
 ## Unexpected Story
 
