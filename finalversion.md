@@ -101,17 +101,17 @@ When i re-reviewed this graph, I had following questions.
 
 The above picture shows that there is some problem with zip code 60634 (unexpected outlier). We need to look at using CameraID dimension and review all the violations in all cameras in the top zip codes that contribute to violations.
 
-I also web scraped average income, mean population age and total population for these zip codes from [url](http://www.city-data.com/zips/60626.html) and merged them with violations data. I tried using Population, Average AGI income of ZipCode instead of Average Median Age. I could not get any subtle inference like, low population or income has certain impact on speed violations. This was not clear from the data. Hence i dropped the idea of using any of these new attributes. The extra data collected for zip codes in the City of Chicago is uploaded to this repository. [alt_text](zip_medianage.csv)
+I also web scraped average income, mean population age and total population for these zip codes from [url](http://www.city-data.com/zips/60626.html) and merged them with violations data. I tried using Population, Average AGI income of ZipCode instead of Average Median Age. I could not get any subtle inference like, low population or income has certain impact on speed violations. This was not clear from the data. Hence i dropped the idea of using any of these new attributes. The extra data collected for zip codes in the City of Chicago is uploaded to this repository. [Zip Wise Age,Population,AGI](zip_medianage.csv)
 
-I came up with a horizontal bar graph, showing total violations by zip code in the descending order. I placed the CameraID in the size of the marks.
+I came up with a horizontal bar graph, showing total violations by zip code in the descending order. I placed the "Camera_Id" dimension in the Marks (under Size).
 ![alt text](images/UnExpected-Final.png)
 
 I think the above graph is the best for the following reasons.
 1. Shows the zip code wise violations with break up on Camera sorted by top violations descending
-2. In one single view, the Mayor gets the Zip code and the contributing Camera details and how much each Camera contribute. This is also engaging and compelling.
+2. In one single view, the Mayor gets the Zip code and the contributing Camera details and how much each Camera contributes. This is also engaging and compelling.
 
 I chose this as final unexpected story telling aspect for the Mayor.
 
-#Version history:
+# Version history:
 1. "Making of" the same story can be found at [First Version](https://github.com/srivasud/threeaspects/blob/master/README.md)
 2. Previous version of the presentation can be found at [First Version Presentation](https://public.tableau.com/profile/srinivasan.vasudevan#!/vizhome/InduvidualProject-ThreeAspects/ThreeAspects)
