@@ -1,4 +1,4 @@
-# Documentation of "Preparation of Three Aspects of Data Visualization on automated speed light violations in the City of Chicago". The actual presentation was for the Mayor of the City of Chicago.
+# Documentation of "Preparation of Three Aspects of Data Visualization on automated speed light violations in the City of Chicago". The actual presentation was for the Mayor of The City of Chicago.
 
 Chicago experiences roughly 3,000 crashes annually between motor vehicles and pedestrians, about 800 of which involve children.The City of Chicago started enforcing automated speed violations around the children's Safety Zone and violations data is available from 1st of July 2014 [Source](https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html)
 
@@ -11,7 +11,7 @@ I prepared a [Visual Presentation](https://public.tableau.com/profile/srinivasan
 I will dive in to the documentation of preparation of this visualization. 
 
 I downloaded the data from [City Data](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4). I used R markdown to process and clean the data. Below the summary output from the violations dataset.
-
+"
 Descriptive Statistics
 ===================================================================================================================
 Statistic                     N       Mean     St. Dev.     Min      Pctl(25)     Median     Pctl(75)       Max    
@@ -27,7 +27,7 @@ Community Areas            176,752    37.9       20.6        6          20      
 Census Tracts              176,752    385.6     258.0        2          131         372         661         801    
 Wards                      176,752    27.5       14.8        1          16          27          40          50     
 -------------------------------------------------------------------------------------------------------------------
-
+"
 The key attributes for our analysis will be 
 * Violations -- This stores the violations count
 * Latitude   -- Latitude of the camera
