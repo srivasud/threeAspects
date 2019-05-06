@@ -4,30 +4,14 @@ Chicago experiences roughly 3,000 crashes annually between motor vehicles and pe
 
 ## Data Collection and Preparation
 
-I have downloaded the speed violations data from the [city's website](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4) which contains speed violations from Q3-2014 to Q1-2019.
+I downloaded the speed violations data from the [city's website](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4) which contains speed violations from Q3-2014 to Q1-2019.
 
 I prepared a [Visual Presentation](https://public.tableau.com/profile/srinivasan.vasudevan#!/vizhome/InduvidualProject-FinalVersion/FinalVersion) for the Mayor of the City of Chicago. The visual presents the three important aspects namely interesting story from the data, non-trivial information and unexpected story from the data.
 
 I will dive in to the documentation of preparation of this visualization. 
 
-I downloaded the data from [City Data](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4). I used R markdown to process and clean the data. Below the summary output from the violations dataset.
-"
-Descriptive Statistics
-===================================================================================================================
-Statistic                     N       Mean     St. Dev.     Min      Pctl(25)     Median     Pctl(75)       Max    
--------------------------------------------------------------------------------------------------------------------
-VIOLATIONS                 183,756    28.3       36.0        1           6          16          36          479    
-X COORDINATE               176,752 1,159,650.0 15,753.1 1,121,638.0 1,149,739.0 1,159,170.0 1,167,170.0 1,203,645.0
-Y COORDINATE               176,752 1,893,455.0 32,100.4 1,820,629.0 1,868,078.0 1,898,488.0 1,920,968.0 1,943,342.0
-LATITUDE                   176,752    41.9       0.1       41.7        41.8        41.9        41.9        42.0    
-LONGITUDE                  176,752    -87.7      0.1       -87.8       -87.7       -87.7       -87.7       -87.5   
-Historical Wards 2003-2015 176,752    25.7       14.8        1          13          25          37          53     
-Zip Codes                  176,752  19,553.2   5,247.1     4,299      21,184      21,572      22,248      22,620   
-Community Areas            176,752    37.9       20.6        6          20          31          59          76     
-Census Tracts              176,752    385.6     258.0        2          131         372         661         801    
-Wards                      176,752    27.5       14.8        1          16          27          40          50     
--------------------------------------------------------------------------------------------------------------------
-"
+I used R to process and clean the data. Below the summary output from the violations dataset.
+
 The key attributes for our analysis will be 
 * Violations -- This stores the violations count
 * Latitude   -- Latitude of the camera
