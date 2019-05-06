@@ -16,27 +16,25 @@ I will dive in to the documentation of preparation of this visualization. I used
 * Wards          -- Ward_Id of the camera location
 * Zip Codes      -- Zip code of the camera
 
-The "Zip Codes" information in this Speed violations dataset seems to be incorrect. I downloaded Wards dataset which contain WARD_ZIPCODE from this [link](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4). I merged the wards data set with speed violations dataset using R into one single data table.
+The "Zip Codes" information in this Speed violations dataset seems to be incorrect. I downloaded Wards dataset which contain WARD_ZIPCODE from this ![source](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4). I merged the wards data set with speed violations dataset using R into one single data table.
 
 Important Note: A ward can have multiple zip codes. But in this case, I saw one ward has one zip code.
 
-So after merge, we will use WARD_ZIPCODE instead of ZipCodes from violations dataset.
-
-I will start on building the three aspects.
+So after merge, we will use WARD_ZIPCODE instead of ZipCodes from violations dataset. I will start building the three aspects now.
 
 ## Interesting Story
 
-The first aspect is telling an interesting story from the data. I wanted to give an overview of the data with a chart showing violations by "time" for the mayor to review. This will give the mayor an overview, how the city has performed over the years since the start of the program. I initially chose the "time" as month, year and a bar graph. This bar graph provided a great detail of the data but it was lot of information to digest. Picture-1 below shows the bar chart. ![alt text](images/Overview-1.png)
+The first aspect is telling an interesting story from the data. I wanted to give an overview of the data with a chart showing violations by "time" for the mayor. This will give the mayor an overview, how the city has performed over the years since the start of the program. I initially chose "time" as month and later tried "time" as year. I used bar graph to compare both. This bar graph provided a great detail of information but it was lot to digest. Picture-1 below shows the bar chart. ![alt text](images/Overview-1.png)
 
-I thought showing variations by year and month represents lot of details but the mayor won't be able to make out anything from this. I wanted to try with year and quarter (which best represents seasons). Pie charts are great in representing quadrants. Picture-2 below shows the pie chart. ![alt text](images/Overview-3.png)
+I thought showing variations by year and month represents lot of details but the mayor won't be able to make out anything from this. I wanted to try with year and quarter (best representation for seasons). Pie charts are great in representing quadrants. Picture-2 below shows the pie chart. ![alt text](images/Overview-3.png)
 
 This pie chart is not able to reflect the seasonal difference or any improvement over the years or the future forecast accurately. The mayor needs to review this pie chart very closely to understand the details. In a nutshell, this pie chart is not engaging and will not be able to draw attention. A line graph might not be a good choice because it will not be able to tell the magnitude of change for all the years from base 0. 
 
-I think using a bar graph and correctly arranging the columns season first and then year will portray the story well. Picture-3 below shows the Overview in an interesting way.![alt text](images/Overview-final.png).I like the way this graph portrays an interesting story of how the program has been working since the start of the program across various seasons and how it will work in the near future as well. This graph also captures the fact that, in Q3 the forecast for year 2019 is slightly more than Q3 of year 2018.This bar graph shows the decreasing trend of total violations for every quarter across years. This graph also clearly show that, Q1 quarter which is the winter season incurred least violations for all the years. The forecast is also clearly shown with the forecasted number of violations in each years (2019 and 2020). I used this as my first version. 
+I think using a bar graph and correctly arranging the columns, season first and then year will portray the story well. Picture-3 below shows the Overview in an interesting way.![alt text](images/Overview-final.png).I like the way this graph portrays an interesting story of how the program has been working since the start of the program across various seasons and how it will work in the near future as well. This graph also captures the fact that, in Q3 the forecast for year 2019 is slightly more than Q3 of year 2018.This bar graph shows the decreasing trend of total violations for every quarter across years. This graph also clearly show that, Q1 quarter which is the winter season incurred least violations for all the years. The forecast is also clearly shown with the forecasted number of violations in each years (2019 and 2020). I used this as my first version. 
 
-Here is my question to myself after the first version. Comparing seasons, what is the message from this graph? Of all the seasons, Q2 consistently beats other seasons in all years. Can we show the decreasing trend or rate and explain to the mayor the following things.
+Here is my question to myself after the first version. Comparing seasons, what is the message from this graph? Of all the seasons, Q2 consistently beats other seasons in all years? Can we show the decreasing trend or rate and explain to the mayor the following things.
 1. The overall trend in all years and seasons.
-2. Season wise decreasing rate and how they perform to each other.
+2. Season wise decreasing rate and how they perform in comparison to each other.
 
 I thought of line graph with trend, forecast features and showing actual and forecast in different colors.![alt text](images/InterestingFinal.png)
 Here are the following reasons i think, this is superior to previous first version.
