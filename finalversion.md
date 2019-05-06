@@ -96,7 +96,8 @@ I came up with another line graph (given below). ![alt text](images/final-3.png)
 I came up with another bar graph (given below). ![alt text](images/final-2.png) When i looked at this graph, the average median age violators are maximum in the age group between 35 to 40. I was expecting young driver population in the age group 30 to 35 will be the maximum violators. This was in contrary to my belief. I think the mayor will be very much interested to see this graph as he will be willing to take further steps by airing ads and pep talks on road safety and Children safety zone awareness among citizens. I finally chose this bar graph for this unexpected story as my first version.
 
 When i re-reviewed this graph, I had following questions.
-* Average Median ages 30 and 38 have the maximum violations.My earlier argument did not establish causal relation between violation and age especially 30 and 38. So i started adding WardZipCode to prove if two different zip codes with the same age 30 and 38 should also have maximum violations or comparable violation trend. I came up with this graph. ![alt text](images/UnExpected-1-Further.png)
+
+* Average Median ages 30 and 38 have the maximum violations.My earlier argument did not establish causal relation between violation and age especially 30 and 38. So i started adding WardZipCode to prove if two different zip codes with the same age 30 and 38 should also have maximum violations or comparable violation trend. I came up with the below graph. ![alt text](images/UnExpected-1-Further.png)
 
 The above picture shows that there is some problem with zip code 60634 (unexpected outlier). We need to look at using CameraID dimension and review all the violations in all cameras in the top zip codes that contribute to violations.
 
