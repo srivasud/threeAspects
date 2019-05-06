@@ -1,17 +1,17 @@
-# Documentation of the preparation of "Three Important Aspects of Data Visualization presentation on on automated speed light violations to the Mayor of the City of Chicago using the city's data set".
+# Documentation of "Preparation of Three Aspects of Data Visualization on automated speed light violations in the City of Chicago". The actual presentation was for the Mayor of The City of Chicago.
 
 Chicago experiences roughly 3,000 crashes annually between motor vehicles and pedestrians, about 800 of which involve children.The City of Chicago started enforcing automated speed violations around the children's Safety Zone and violations data is available from 1st of July 2014 [Source](https://www.chicago.gov/city/en/depts/cdot/supp_info/children_s_safetyzoneporgramautomaticspeedenforcement.html)
 
 ## Data Collection and Preparation
 
-I have downloaded the speed violations data of the City of Chicago from the [city's website](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4) which contains speed violations from Q3-2014 to Q1-2019.
+I have downloaded the speed violations data from the [city's website](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4) which contains speed violations from Q3-2014 to Q1-2019.
 
 I prepared a [Visual Presentation](https://public.tableau.com/profile/srinivasan.vasudevan#!/vizhome/InduvidualProject-FinalVersion/FinalVersion) for the Mayor of the City of Chicago. The visual presents the three important aspects namely interesting story from the data, non-trivial information and unexpected story from the data.
 
 I will dive in to the documentation of preparation of this visualization. 
 
 I downloaded the data from [City Data](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4). I used R markdown to process and clean the data. Below the summary output from the violations dataset.
-
+"
 Descriptive Statistics
 ===================================================================================================================
 Statistic                     N       Mean     St. Dev.     Min      Pctl(25)     Median     Pctl(75)       Max    
@@ -27,9 +27,9 @@ Community Areas            176,752    37.9       20.6        6          20      
 Census Tracts              176,752    385.6     258.0        2          131         372         661         801    
 Wards                      176,752    27.5       14.8        1          16          27          40          50     
 -------------------------------------------------------------------------------------------------------------------
-
+"
 The key attributes for our analysis will be 
-* Violations -- This stores the violations cunt
+* Violations -- This stores the violations count
 * Latitude   -- Latitude of the camera
 * Longitude  -- Longitude of the camera
 * Violation Date -- Date of violation
@@ -127,7 +127,7 @@ When i re-reviewed this graph, I had following questions.
 The above picture shows that there is some problem with zip code 60634 (unexpected outlier). We need to look into using CameraID dimension and review all the violations in all cameras in the top zip codes that contribute to violations.
 
 I also web scraped average income, mean population age and average population for these zip codes from [url](http://www.city-data.com/zips/60626.html)
-and merged them with violations data. The average age is very similar to median age of these zip codes. It was slightly lesser in most cases. Hence using mean age won't have any effect in our analysis. I also tried with using population, Average AGI income instead of average median age. I could not get any subtle inference like, low population or income has certain impact on speed violations. This was not clear from the data. Hence i dropped the idea of using any of these new attributes.
+and merged them with violations data. The average age is very similar to median age of these zip codes. It was slightly lesser in most cases. Hence using mean age won't have any effect in our analysis. I also tried with using population, Average AGI income instead of average median age. I could not get any subtle inference like, low population or income has certain impact on speed violations. This was not clear from the data. Hence i dropped the idea of using any of these new attributes. The extra data collected for zip codes in the City of Chicago is uploaded to this repository. ![alt_text](zip_medianage.csv)
 
 I came up with a horizontal bar graph, showing total violations by zip code in the descending order. I placed the CameraID in the size of the marks.
 ![alt text](images/UnExpected-Final.png)
