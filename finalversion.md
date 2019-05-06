@@ -16,7 +16,7 @@ I will dive in to the documentation of preparation of this visualization. I used
 * Wards          -- Ward_Id of the camera location
 * Zip Codes      -- Zip code of the camera
 
-The "Zip Codes" information in this Speed violations dataset seems to be incorrect. I downloaded Wards dataset which contain WARD_ZIPCODE from this ![source](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4). I merged the wards data set with speed violations dataset using R into one single data table.
+The "Zip Codes" information in this Speed violations dataset seems to be incorrect. I downloaded Wards dataset which contain WARD_ZIPCODE from this [source](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4). I merged the wards data set with speed violations dataset using R into one single data table.
 
 Important Note: A ward can have multiple zip codes. But in this case, I saw one ward has one zip code.
 
