@@ -24,7 +24,7 @@ So after merge, we will use WARD_ZIPCODE instead of ZipCodes from violations dat
 
 ## Interesting Story
 
-The first aspect is telling an interesting story from the data. I wanted to give an overview of the data with a chart showing violations by "time" for the mayor. This will give the mayor an overview, how the city has performed over the years since the start of the program. I initially chose "time" as year and month and in the next step below tried "time" as year and quarter. I used bar graph to compare both. This below bar graph provided a great detail of information but it was lot to digest. Picture-1 below shows the bar chart violations by year and month. ![alt text](images/Overview-1.png)
+The first aspect is telling an interesting story from the data. I wanted to give an overview of the data with a chart showing violations by "time" for the mayor. This will give the mayor an overview, how the city has performed over the years since the start of the program. I initially chose "time" as year and month. This below bar graph provided a great detail of information but it was lot to digest. Picture-1 below shows the bar chart violations by year and month. ![alt text](images/Overview-1.png)
 
 I thought showing variations by year and month represents lot of details but the mayor won't be able to make out anything from this. I wanted to try with year and quarter (best representation for seasons). Pie charts are great in representing quadrants. Picture-2 below shows the pie chart. ![alt text](images/Overview-3.png)
 
