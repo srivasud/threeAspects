@@ -8,7 +8,7 @@ I downloaded the speed violations data from the [city's website](https://data.ci
 
 I prepared a [Visual Presentation](https://public.tableau.com/profile/srinivasan.vasudevan#!/vizhome/InduvidualProject-FinalVersion/FinalVersion) for the Mayor of the City of Chicago. This visual talks about the three important aspects of data visualization namely interesting story from the data, non-trivial information and unexpected story from the data.
 
-I will dive in to the documentation of preparation of this visualization. I used R to process and clean the data. Below the summary output from the violations dataset. The key attributes from the dataset for our analysis will be:
+I will dive in to the documentation of preparation of this visualization. I used R to process and clean the data. The key attributes from the dataset for our analysis will be:
 * Violations -- This stores the violations count
 * Latitude   -- Latitude of the camera
 * Longitude  -- Longitude of the camera
