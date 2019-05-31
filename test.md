@@ -49,7 +49,7 @@ Lastly, this documentation should also note the issues encountered when working 
 The below are the important prerequisites of a successful data visualization project.
 [@prerequisites_vizhitachi]
 
-* ** Defining the project ** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
++ **Defining the project** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
 
 Sample questions that can help one understand the project better:
   + what is the organization need you are trying to address?
@@ -62,14 +62,14 @@ Sample questions that can help one understand the project better:
   
 
 
-+ ** Understanding the audience ** How will they process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
++ **Understanding the audience** How will they process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
   + Quantities: counts or measures. Example - Count of likes or comments
   + Trends and changes over time:  time series. Example - Change in sales quantity over time
   + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.
   + Ranked list: although not a real data visualization, it could achieve the goal needed.
   + Geographical Location: Gives user spatial and physical relationships.
 
-* ** Understanding the audience ** How will the consumers process this visualization, is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most users want to see 'Key performance indicators' which are the main drivers for the visualizations. The following are different kinds of visualizations that can be used to display KPIs:
++ **Understanding the audience** How will the consumers process this visualization, is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most users want to see 'Key performance indicators' which are the main drivers for the visualizations. The following are different kinds of visualizations that can be used to display KPIs:
   + Quantities: counts or measures. Example - Count of likes or comments.  
   + Trends and changes over time:  time series. For example, Change in sales quantity over time.  
   + Relatives Share and proportions:  display relationship between the parts and the whole. Example - breakdown of a stock portfolio by asset.  
@@ -93,7 +93,7 @@ This section is derived because of recent innovation in interactive visualizatio
 
 Finally, if you really want to learn a do-it-all programming language that just happens to be great at data visualization, go with Python. Python is a general purpose and powerful tool, and it&#39;s quite popular in the data science community. Finally, much like D3.js for Javascript or ggplot for R, there are many Python libraries dedicated to data visualization. Seaborn (which builds on an older popular library, matplotlib) and Bokeh are probably the best-in-class right now, but this is a quickly evolving and improving landscape. Both the [Seaborn](http://stanford.edu/~mwaskom/software/seaborn/examples/index.html) and [Bokeh](http://bokeh.pydata.org/en/latest/docs/gallery.html) websites include galleries showing off the kinds of visualizations you can create with those tools.
 
-* ** Understanding the data you are trying to visualize ** such as shape, dimension of the data, is data a time-series, relationship in data between entities,categorical attributes is also an important prerequisite. Is this data from a single source or multiple sources?. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the end goal should be kept in mind.
++ **Understanding the data you are trying to visualize** such as shape, dimension of the data, is data a time-series, relationship in data between entities,categorical attributes is also an important prerequisite. Is this data from a single source or multiple sources?. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the end goal should be kept in mind.
 
 + **Deciding which visual is best.**
 One of the biggest challenges for business users is deciding which visual should be used to best represent the information. Tables, Linechart, Areachart, Barchart, Scatterplots, Piechart, Treemaps, Heatmaps, Natual Language Generation, Etc.
