@@ -71,8 +71,8 @@ The below are the important prerequisites of a successful data visualization pro
 + **Deciding which visual is best**
 One of the biggest challenges for business users is deciding which visual should be used to best represent the information. Tables, Linechart, Areachart, Barchart, Scatterplots, Piechart, Treemaps, Heatmaps, Natual Language Generation, Etc.
 
-+ **Choosing the tool**
-[@prerequisites_tools]
++ **Choosing the tool**  
+[@prerequisites_tools]  
 Choosing a tool, depends on the person conducting or designing the visualization, and the platform he wants to integrate his work into.It also depends on the ability of the user and their needs. eg:-Tableau has a no code approach whereas D3.js ,Altair etc has coding approaches. These approaches help users to adopt and customize further. For example: With Tableau, users can add customization such as a new formula addition, sorting behaviors to the charts initially developed, whereas D3.js and other coding tools may not give that flexibility and the users are dependent on the designer to make further changes.
 
 These approaches are discussed in detail below:  
