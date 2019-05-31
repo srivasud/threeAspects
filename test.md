@@ -49,16 +49,16 @@ Lastly, this documentation should also note the issues encountered when working 
 The below are the important prerequisites of a successful data visualization project.
 [@prerequisites_vizhitachi]
 
-+ **Defining the project** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout.
++ **Defining the project** Behind every project there is an organizational need. The need could be as simple as a weekly sales performance dashboard or a sophisticated predictive recommendation engine. Addressing these needs with a concrete measurable objectives provide the right framework to deliver the right information in  right fashion. The communication of Key Performance Indicators (KPIs) from the end product is very important for the consumers. To do this, you need to collect requirements, set design processes, schedule regular discussions with users and continue these meetings until the final project rollout.  
 
-    Sample questions that can help one understand the project better:
-      + what is the organization need you are trying to address?
-      + What are the main data sources you need to access? 
-      + Is the data upto date or will it provide updated data in regular intervals?
-      + which type of data visual works best?
-      + Is there a measurable goal you want to achieve?
-      + What are the core KPIs to convey to users if any?
-      + Which type of KPI visualization is suitable for this goal?
+    Sample questions that can help one understand the project better:  
+      + what is the organization need you are trying to address?  
+      + What are the main data sources you need to access?  
+      + Is the data upto date or will it provide updated data in regular intervals?  
+      + which type of data visual works best?  
+      + Is there a measurable goal you want to achieve?  
+      + What are the core KPIs to convey to users if any?  
+      + Which type of KPI visualization is suitable for this goal?  
 + **Understanding the audience** How will they process this visualization is another important prerequisite. Designing a visualization for scientists is entirely different from a visualization designed for law-makers or for general public. Most user want to see 'Key performance indicators' which are the main drivers for visualizations. The following are different kinds of visualizations that can be used to display KPIs:
   + Quantities: counts or measures. Example - Count of likes or comments
   + Trends and changes over time:  time series. Example - Change in sales quantity over time
