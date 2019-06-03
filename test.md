@@ -65,7 +65,7 @@ The below are the important prerequisites of a successful data visualization pro
     + Ranked list: although not a real data visualization, it could achieve the goal needed.  
     + Geographical Location: Gives user spatial and physical relationships.  
 
- **Understanding the data you are trying to visualize** such as shape, dimension of the data, is data a time-series, relationship in data between entities,categorical attributes is also an important prerequisite. Is this data from a single source or multiple sources?. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the end goal should be kept in mind.
++ **Understanding the data you are trying to visualize** such as shape, dimension of the data, is data a time-series, relationship in data between entities,categorical attributes is also an important prerequisite. Is this data from a single source or multiple sources?. If the data is from multiple sources, they need to be blended together without loosing the meta data constraints and business rules. When the data is collected, the end goal should be kept in mind.
 
 + **Deciding which visual is best**
 One of the biggest challenges for business users is deciding which visual should be used to best represent the information. Tables, Linechart, Areachart, Barchart, Scatterplots, Piechart, Treemaps, Heatmaps, Natual Language Generation, Etc. Depending upon the industry and specific department business may want to measure success based on specific goals and targets. Few of the KPI examples that can help are listed as follows: Marketing Metrics, Sales Metrics, Saas Metrics and KPIs, Digital Marketing Metrics, Social Media Metrics, SEO KPIs, Financial Metrics and KPIs, Supply Chain Metrics, Healthcare Metrics, Call Center Metrics, Support Metrics, Retail Metrics and KPIs, Help Desk Metrics and KPIs, Insurance Metrics, E-Commerce Metrics and KPIs, HR Metrics, Devops Metrics and KPIs. 
@@ -80,7 +80,7 @@ One of the biggest challenges for business users is deciding which visual should
 + **User Interaction** 
 [@prerequisites_vizhitachi]  
     Something to consider is wheter or not you want your project to be interactive. You can consider making your visualization dynamic with filters, drilldown capabilities and more. This provides a more engaging experience and increases user adaptation. While static and interactive visualizations have their pros and cons it is always imperative to analyze first if they will make your vixualization more effective.
-    Some interactive tools:
- + **Filters and Selectors:** Flexibility is key
- + **Hover and Drill Down Interaction:** Provides great opportunity for interaction
+      Some interactive tools:
+   + **Filters and Selectors:** Flexibility is key
+   + **Hover and Drill Down Interaction:** Provides great opportunity for interaction
   
